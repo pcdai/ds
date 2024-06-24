@@ -19,4 +19,9 @@ public class BaseEntity {
     private LocalDateTime updateTime;
     private String updateBy;
     private String remark;
+
+    public static void main(String[] args) {
+        Book book = new Book();
+        Book book1 = new Book();
+    }
 }
